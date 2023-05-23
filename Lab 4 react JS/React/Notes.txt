@@ -1,0 +1,71 @@
+Using the following npm command
+
+	mkdir reactproject
+	cd /reactproject/
+	npm init -y
+	npm install react react-dom --save
+	npm install webpack webpack-dev-server webpack-cli --save
+	npm install babel-core babel-loader babel-preset-env babel-preset-react babel-webpack-plugin --save-dev
+
+	mkdir reactproject
+	cd /reactproject/
+	npm install -g create-react-app
+	create-react-app ecommerceapp
+	
+	We suggest that you begin by typing:
+	  cd ecommerceapp
+	  npm start
+	  
+How to install bootstrap is  :- 
+	npm install react-bootstrap bootstrap
+	
+	CSS:- The following line has to be included in index.js
+	import 'bootstrap/dist/css/bootstrap.min.css';
+	
+	
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+
+	
+	
+React Router
+	Routing is a process in which a user is directed to different pages based on their action or request
+	ReactJS Router is mainly used for developing Single Page Web Applications.
+	React Router is used to define multiple routes in the application.
+	When a user types a specific URL into the browser, and if this URL path matches any 'route' inside the router file, the user will be redirected to that particular route.
+
+React contains three different packages for routing. These are:
+	react-router: It provides the core routing components and functions for the React Router applications.
+	react-router-native: It is used for mobile applications.
+	react-router-dom: It is used for web applications design.
+	
+	npm install react-router-dom --save
+
+
+
+
+Assignment :- 
+Books
+	-> 10 Books ->  [{id: 1, name: bookName, publisher: somePublisher, year: 2023}]
+	BookList
+	-> List books 
+			-> table -> 10 books -> id | name | publisher | year | ...
+		-> localhost:8080/books
+		-> localhost:8080/books/1 
+				-> List only book  id | name | publisher | year | ...
+	

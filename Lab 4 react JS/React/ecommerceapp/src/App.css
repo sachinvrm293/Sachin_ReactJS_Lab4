@@ -1,0 +1,31 @@
+.error {
+  color: red;
+  font-size: 25px;
+  margin: 5px;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.block {
+  background-color: aquamarine;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.row center {
+  align-items: center;
+}
+
+.floatRight {
+  float: right;
+}
